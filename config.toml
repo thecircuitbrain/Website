@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://thecircuitbrain.github.io/"
 languageCode = "en-us"
-title = "Agency"
+title = "The Circuit Brain"
 theme = "hugo-agency-theme"
 
 # Enter your tracking code to enable Google Analytics
@@ -17,9 +17,9 @@ googleAnalytics = ""
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "Your name"
+  name = "THe Circuit Brain"
   description = "Your description"
-  # email = "your@email.com"
+  email = "thecircuitbrain@gmail.com"
 
   # Link custom assets relative to /static
   custom_css = []
@@ -32,7 +32,7 @@ googleAnalytics = ""
 
   # 404 error customization
   [params.error404]
-    heading = "Page couldn't be found"
+    heading = "Sorry we have a big data issue .. Solving Page couldn't be found"
     text = "Please visit [this page](/)"
 
   # Optional piwik tracking
@@ -46,11 +46,11 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "The Agency"
+    brand = "TCB"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
-    services = "Services"
-    portfolio = "Portfolio"
+    services = "Courses"
+    portfolio = "Learning Path"
     about = "About"
     team = "Team"
     contact = "Contact"
@@ -76,34 +76,34 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Welcome To Our Studio!"
-    subtitle = "It's nice to meet you"
-    buttonText = "Tell me more"
+    title = "Welcome To The Circuit Brain!"
+    subtitle = "Lets derive insights!"
+    buttonText = "View Courses"
 
 
   # Services section
   [params.services]
     enable = true
-    title = "Services"
+    title = "Courses"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
 
     [[params.services.row]]
 
     [[params.services.row.list]]
       icon = "fa-shopping-cart"
-      title = "E-Commerce"
+      title = "Data Analyst"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-laptop"
-      title = "Responsive Design"
+      title = "Data Scientist"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-lock"
-      title = "Web"
+      title = "Machine Learning Engineer"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       url = "#"
 
